@@ -23,6 +23,7 @@ if __name__ == '__main__':
     print('run by itself')
     print(sys.path)
 
+    # __init__.py 定义包, 默认可以直接引用同级和下级
     c4 = PackagesMain('name')
     c4.say()
 else:

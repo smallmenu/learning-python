@@ -1,8 +1,7 @@
-import os
 import sys
 
-from a.modulea import ModuleA
-from package import Package
+from packages.a.modulea import ModuleA
+from packages.package import Package
 
 
 class PackagesModuleBMain:

@@ -1,7 +1,7 @@
 import sys
 
-from package import Package
-from b.moduleb_main import PackagesModuleBMain
+from packages.package import Package
+from packages.b.moduleb_main import PackagesModuleBMain
 
 
 class PackagesMain:
@@ -11,7 +11,7 @@ class PackagesMain:
     def say(self):
         print('PackagesMain Class Name:{0}'.format(self.name))
 
-        # 当前目录下的模块
+        # # 当前目录下的模块
         m = Package('name')
         m.say()
 
