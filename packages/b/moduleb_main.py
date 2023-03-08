@@ -1,8 +1,7 @@
 import sys
 
-from packages.a.modulea import ModuleA
+from packages.a.modulea  import ModuleA
 from packages.package import Package
-
 
 class PackagesModuleBMain:
     def __init__(self, name):
