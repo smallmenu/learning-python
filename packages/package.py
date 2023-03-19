@@ -1,3 +1,4 @@
+from funs.fun import Fun
 class Package:
     def __init__(self, name):
         self.name = name
